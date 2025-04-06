@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - GSC Page Keywords (API Ver)</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
+        h1, h2 { color: #333; }
+        a { color: #007bff; }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy for GSC Page Keywords (API Ver) Chrome Extension</h1>
+
+<p><strong>Last Updated:</strong> April 6, 2025</p>
+
+<p>Thank you for using the "GSC Page Keywords (API Ver)" Chrome Extension ("the Extension"). This policy explains what information the Extension accesses and how it is used and protected.</p>
+
+<h2>1. Information We Access</h2>
+
+<p>The Extension needs access to certain information to function correctly:</p>
+<ul>
+    <li><strong>Google User Authentication:</strong> The Extension uses Google's OAuth 2.0 system (<code>identity</code> permission) to allow you to securely log in with your Google account. This process grants the Extension permission to access your Google Search Console data on your behalf. We only request read-only access (<code>https://www.googleapis.com/auth/webmasters.readonly</code> scope). We do <strong>not</strong> access your Google account password.</li>
+    <li><strong>Google Search Console (GSC) Data:</strong> Once authenticated, the Extension uses the Google Search Console API (<code>https://www.googleapis.com/*</code> host permission) to retrieve data associated with the websites linked to your GSC account. This data typically includes keywords, page URLs, and performance metrics. This access is <strong>read-only</strong>. The data is fetched solely to be displayed to you within the Extension's interface.</li>
+    <li><strong>Active Tab URL:</strong> The Extension requires access to the URL of the web page you are currently viewing (<code>activeTab</code>, <code>tabs</code> permissions). This allows the Extension to identify the specific page or domain for which you want to retrieve GSC data.</li>
+    <li><strong>Local Storage:</strong> The Extension uses the browser's local storage (<code>storage</code> permission) to securely store your OAuth authentication token. This allows you to remain logged in between browser sessions without needing to re-authenticate each time. User preferences or cached GSC data might also be stored locally to improve performance. This data remains on your local device.</li>
+</ul>
+
+<h2>2. How We Use Information</h2>
+
+<p>The information accessed is used exclusively for the following purposes:</p>
+<ul>
+    <li><strong>To Provide Functionality:</strong> To retrieve and display relevant Google Search Console keywords and performance data for the website you are currently browsing.</li>
+    <li><strong>Authentication:</strong> To securely verify your identity via Google Sign-In and authorize access to the GSC API.</li>
+    <li><strong>Persistence:</strong> To maintain your login session using locally stored authentication tokens.</li>
+    <li><strong>Improving User Experience:</strong> Potentially using locally stored settings or cached data to enhance performance and usability.</li>
+</ul>
+
+<h2>3. Information Sharing</h2>
+
+<p>We <strong>do not</strong> share your personal information or Google Search Console data with any third parties.</p>
+<ul>
+    <li>The GSC data retrieved via the API is requested directly from Google's servers and displayed only to you within the Extension.</li>
+    <li>Authentication tokens are stored locally on your device and are not transmitted to any servers other than Google's for authentication purposes.</li>
+    <li>We do not collect or transmit any browsing history or personal identifiers, other than what is necessary for the Google OAuth flow and GSC API interaction.</li>
+</ul>
+
+<h2>4. Data Security</h2>
+
+<p>We take reasonable measures to protect the information accessed by the Extension:</p>
+<ul>
+    <li>We utilize Google's secure OAuth 2.0 protocol for authentication.</li>
+    <li>All communication with Google APIs occurs over HTTPS.</li>
+    <li>Authentication tokens are stored locally using Chrome's secure storage mechanisms.</li>
+</ul>
+<p>However, please remember that no method of transmission over the Internet or electronic storage is 100% secure.</p>
+
+<h2>5. User Control and Rights</h2>
+<ul>
+    <li><strong>Revoking Access:</strong> You can revoke the Extension's access to your Google Account at any time through your Google Account security settings page: <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer">https://myaccount.google.com/permissions</a></li>
+    <li><strong>Uninstalling:</strong> You can uninstall the Extension at any time through your browser's extension management settings. Uninstalling will remove any data stored locally by the Extension, including authentication tokens.</li>
+</ul>
+
+<h2>6. Changes to This Privacy Policy</h2>
+
+<p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by updating the "Last Updated" date at the top of this policy and potentially through a notice on the Extension's Chrome Web Store listing. We encourage you to review this policy periodically.</p>
+
+<h2>7. Contact Us</h2>
+
+<p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:ramin.babaei.dev@gmail.com">ramin.babaei.dev@gmail.com</a></p>
+
+</body>
+</html>
